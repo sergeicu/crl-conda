@@ -14,7 +14,7 @@ Why do we need "the workaround"?
 e2 conda is hosted in this location `/programs/local/anaconda/`. By design, this location is not writable by e2 users without sudo access. Therefore, adding / updating / removing conda packages is not possible. Instead, we install conda into our own local directory as a workaround. 
 
 **Note**  
-This workaround does NOT require installation of new conda software. We use preinstalled conda binaries on e2 cluser to create new conda environments in local directories. If you want to start from complete scratch, we recommend that you use [miniconda install files.](https://docs.conda.io/en/latest/miniconda.html) 
+This workaround does NOT require installation of new conda software. We use preinstalled conda binaries on e2 cluster to create new conda environments in local directories. If you want to start from complete scratch, we recommend that you use [miniconda install files.](https://docs.conda.io/en/latest/miniconda.html) 
 
 ## Basic setup 
 Login to e2 from your CRL machine  
@@ -31,7 +31,7 @@ List available environments (supplied by research computing):
 `conda env list` 
 
 ## Create a basic environment 
-e.g. imagine you need to create a new conda environment wiht python 3.6 and nifti & nrrd file readers 
+e.g. you need to create a new conda environment with python 3.6 and nifti & nrrd file readers 
 
 `conda create --prefix ~/conda_pkgs/my_custom_env/ python=3.6 pynrrd nibabel -c kayarre -c conda-forge`
 
