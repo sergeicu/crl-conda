@@ -24,7 +24,7 @@ Create a folder where your conda environment will be stored.
 `mkdir -p ~/conda_pkgs/`  
 <sub>Please choose the location carefully. If you keep adding new conda environments to this folder, it will quickly fill up and possibly take up many Gb in size.</sub>
 
-Activate conda on e2 first
+Activate conda on e2 first  
 `module load anaconda3` 
 
 List available environments (supplied by research computing): 
