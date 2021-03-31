@@ -27,7 +27,7 @@ Create a folder where your conda environment will be stored.
 Activate conda on e2 first  
 `module load anaconda3` 
 
-List available environments (supplied by research computing): 
+List available environments (supplied by research computing):   
 `conda env list` 
 
 ## Create a basic environment 
