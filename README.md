@@ -1,4 +1,4 @@
-A short guide to managing conda/anaconda/miniconda @ CRL network and Research Computing e2 cluster
+A short guide to managing conda/anaconda/miniconda @ CRL and on Research Computing e2 cluster
 
 **NOTE: full guide TBC - guide for e2 conda is below**
 
