@@ -17,7 +17,7 @@ e2 conda is hosted in this location `/programs/local/anaconda/`. By design, this
 This workaround does NOT require installation of new conda software. We use preinstalled conda binaries on e2 cluser to create new conda environments in local directories. If you want to start from complete scratch, we recommend that you use [miniconda install files.](https://docs.conda.io/en/latest/miniconda.html) 
 
 ## Basic setup 
-Login to e2 from your CRL machine
+Login to e2 from your CRL machine  
 `ssh $USER@e2.tch.harvard.edu`
 
 Create a folder where your conda environment will be stored.  
